@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.12.+'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+android {
+
+    compileSdkVersion 21
+    buildToolsVersion "21.1"
+    defaultConfig {
+
+        minSdkVersion 10
+        targetSdkVersion 21
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:19.1.0'
+
+    compile project(':library')
+    compile project( ':circular')
+    compile project(':progressLibrary')
+    compile project(':calendarLibrary')
+    compile project(':tabLibrary')
+    compile project(':caldroid')
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">自控力</string>
+    <string name="action_left">添加梦想</string>
+    <string name="action_mid">修改时间</string>
+    <string name="action_right">查看图表</string>
+    <string-array name="three_state_option">
+        <item>  日 历  </item>
+        <item>  图 表  </item>
+    </string-array>
+</resources>
