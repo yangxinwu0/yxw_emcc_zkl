@@ -45,4 +45,9 @@
     <color name="test_attr_selected_text_color">#FFFFFF</color>
     <color name="test_attr_selected_color">#5FE3E5</color>
     <color name="test_attr_unselected_color">#FFFFFF</color>
+
+    <color name="custom_progress_my_background">#383C45</color>
+    <color name="custom_progress_myDream">#C4E127</color>
+    <color name="custom_progress_myNecessary">#F15287</color>
+    <color name="custom_progress_myWaste">#FED337</color>
 </resources>
