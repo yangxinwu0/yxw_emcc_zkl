@@ -52,7 +52,7 @@ public class HomeActivity extends TabActivity {
 	private void setTabs()
 	{
 		addTab("自控力", R.drawable.tab_search, ZKLActivity.class);
-		addTab("精英圈", R.drawable.tab_search, ZoneActivity.class);
+		addTab("精英圈", R.drawable.tab_search, ChartToday.class);
 	}
 	private void addTab(String labelId, int drawableId, Class<?> c)
 	{

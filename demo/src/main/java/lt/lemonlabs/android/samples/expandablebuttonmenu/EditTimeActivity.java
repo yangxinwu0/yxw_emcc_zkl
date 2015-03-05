@@ -8,7 +8,7 @@ import android.view.Window;
  * Created by lenovo on 2015/3/2.
  */
 public class EditTimeActivity extends Activity{
-
+/*-----------------------------------------*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
