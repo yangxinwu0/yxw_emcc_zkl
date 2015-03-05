@@ -27,6 +27,7 @@ public class HomeActivity extends TabActivity {
 	/** Called when the activity is first created. */
 	/*这是测试哈哈哈-----------------------------------------------------------------------------------------------*/
     /*1234565*/
+    /*88888888888888888888888888*/
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
